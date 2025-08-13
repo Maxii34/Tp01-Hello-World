@@ -1,12 +1,36 @@
-# React + Vite
+# Hello World React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📜 Descripción
 
-Currently, two official plugins are available:
+Este proyecto es una práctica básica de **React** en tres partes, diseñada para reforzar el uso de **props** y **state**.
+---
+### 1. Hello World
+Crear una aplicación web con un componente que muestre en pantalla el mensaje:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2. Hello World (Parte 2)
+Modificar el componente anterior para recibir mediante **props** el valor `"My friend"`, de forma que el mensaje quede:
 
-## Expanding the ESLint configuration
+### 3. Hello World (Parte 3)
+Modificar el programa anterior agregando:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Un **state** con la clave `msj` y valor inicial `"(from changed state)"`.
+- Un **botón** que, al presionarlo, muestre en pantalla el valor del `state` junto al saludo.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- [React](https://react.dev/)
+- [Bootstrap 5](https://getbootstrap.com/) 
+
+---
+
+## 👨‍💻 Autor
+
+Maximiliano Ordoñez
+
+## 🌐 Demo
+-Proba la demo del proyecto [Aqui.]()
+
