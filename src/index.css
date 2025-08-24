@@ -1,14 +1,9 @@
-.card-01 {
-  background-color: chocolate;
-  border: 2px solid rgb(139, 70, 21);
-  color: black;
-  width: 700px;
-  padding: 5px;
-  border-radius: 9px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease, transform 0.2s ease;
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.card-01:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
-  transform: scale(1.01);
+main {
+    flex: 1;
+}
